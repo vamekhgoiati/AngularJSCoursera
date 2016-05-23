@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="col-xs-9 col-xs-offset-1">
-            <p><b>Customer Comments</b>&emsp;<span style="color:grey">Sort by:</span>
+            <p><b>Customer Comments</b><span style="color:grey; margin-left: 5em;">Sort by:</span>
                 <input type="text" ng-model="dishCtrl.filterText"></p>
             <blockquote ng-repeat="comment in dishCtrl.dish.comments | orderBy: dishCtrl.filterText">
                 <h2>{{comment.rating}} Stars</h2>
