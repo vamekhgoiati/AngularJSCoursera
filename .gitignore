@@ -1,4 +1,11 @@
 */.idea
-*/node-modules
+**/*/.idea
+*/node_modules
+**/*/node_modules
 */dist
+**/*/dist
+*/.tmp
+**/*/.tmp
+*/bower_components
+**/*/bower_components
 
